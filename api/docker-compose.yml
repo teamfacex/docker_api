@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  server_api:
+    ports:
+      - '5000:5000'
+    environment:
+      - USER=user1234
+    volumes:
+      - 'datavol-server:/sdk'
+      - '${PWD}/data:/sdk/data'
+      - '${PWD}/bulk:/sdk/bulk'
+      - '${PWD}/log:/sdk/log'
+    image: 'server_api:latest'
+volumes:
+  datavol-server:
