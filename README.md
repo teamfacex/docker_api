@@ -101,7 +101,7 @@ docker image load -i server_api.tar
 ##### Clone this github repositoy
 
 ```
-git clone https://github.com/teamfacex/docker-sdk.git
+git clone https://github.com/teamfacex/docker_api.git
 ```
 
 change directory to api.
@@ -111,7 +111,7 @@ cd docker-sdk/api
 ```
 ##### License
 If you are a new customer looking for credentials, please email us at team@facex.io
-Edit USER environment variable in [docker-compose.yml](https://raw.githubusercontent.com/teamfacex/docker-sdk/master/api/docker-compose.yml). 
+Edit USER environment variable in [docker-compose.yml](). 
 
 ```
 environment:
@@ -173,7 +173,7 @@ note:
 
 
 ## Customization
-### Fine Tune the [docker-compose.yml](https://raw.githubusercontent.com/teamfacex/docker-sdk/master/facex-compose/docker-compose.yml)
+### Fine Tune the [docker-compose.yml]()
 
 Params
 
