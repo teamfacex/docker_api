@@ -177,30 +177,7 @@ note:
 
 Params
 
-1)  device & URL
-
-
-```
-#default setting
-devices:
- -/dev/video0:/dev/video0
-environment:
- -URL=0
-
-#eg change:
-devices:
- -/dev/video1:/dev/video0
-environment:
- -URL=0
-
-#or:
-devices:
- -/dev/video1:/dev/video0
-environment:
- -URL=0
-```
-
-2)  USER
+1)  USER
 
 ```
 #default setting:
