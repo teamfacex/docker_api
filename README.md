@@ -9,7 +9,6 @@
             * [Arch Linux](#arch-linux)    
 * [Getting The SDK](#getting-the-sdk)
    * [server_api](#server_api)
-   * [data-wrangler](#data-wrangler)
 * [Customization](#customization)
    * [Fine Tune the docker-compose.yml](#fine-tune-the-docker-composeyml)
           * [Optional-Setup NVIDIA & CUDA](#optional-setup-nvidia---cuda)
